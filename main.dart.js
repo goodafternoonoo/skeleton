@@ -108499,15 +108499,22 @@ s=new A.a7(n,new A.aDF(),s).by(0,"\n")
 m.geJ().z.push(new A.aDG(m,new A.ji("\ud83d\udd13 "+r+" \ud574\uae08!",B.af,s)))}else if(!(q&&A.o4(s)!==A.o4(r)))if(q){s=m.geJ()
 if(s.ni(s.r).a>=25e5&&!s.w3())m.DA(new A.ji("STAGE "+r+" CLEAR!",B.mQ,null))}else if(b.y>=9&&a.y<9)m.DA(B.a9s)
 m.geJ().Up(a,b)},
-aub(){var s,r,q,p=this
-p.geJ().ht(B.Ht);++p.k2
+aub(){var s,r,q,p,o,n,m,l=this
+l.geJ().ht(B.Ht);++l.k2
 s=new A.cY(Date.now(),0,!1)
-r=p.k3
-if(r!=null&&s.f0(r).a<6e7&&p.k2!==2)return
-p.k3=s
-r=p.gb6().R($.bj(),t.M)
-q=p.k2>=2?"\ub9c9\ud614\ub2e4\uba74 \uc131\uc7a5 \ud0ed\uc5d0\uc11c \uccb4\ub825\xb7\uacf5\uaca9\ub825\uc744 \uc62c\ub824 \ubcf4\uc138\uc694":null
-p.DA(new A.ji("\uc4f0\ub7ec\uc84c\ub2e4\u2026 Stage "+r.x+" \ub2e4\uc2dc \ub3c4\uc804",B.bv,q))},
+r=l.k3
+if(r!=null&&s.f0(r).a<6e7){r=l.k2
+r=r!==2&&r!==4}else r=!1
+if(r)return
+l.k3=s
+r=l.gb6()
+q=$.bj()
+p=t.M
+o=r.R(q,p)
+n=l.k2
+if(n<2)m=null
+else m=o.y>=9&&n<4?"\ubcf4\uc2a4\uac00 \ubab8\uc744 \ud06c\uac8c \uc816\ud788\uba74, \uc9c1\uc811 \ub450\ub4dc\ub824 \ub0b4\ub824\uce58\uae30\ub97c \ub9c9\uc544 \ubcf4\uc138\uc694":"\ub9c9\ud614\ub2e4\uba74 \uc131\uc7a5 \ud0ed\uc5d0\uc11c \uccb4\ub825\xb7\uacf5\uaca9\ub825\uc744 \uc62c\ub824 \ubcf4\uc138\uc694"
+l.DA(new A.ji("\uc4f0\ub7ec\uc84c\ub2e4\u2026 Stage "+r.R(q,p).x+" \ub2e4\uc2dc \ub3c4\uc804",B.bv,m))},
 K_(a){var s,r,q,p=this
 if(a!=null&&p.c!=null){s=p.gb6()
 r=$.bw()
